@@ -1,0 +1,533 @@
+{
+  "meta": {
+    "empresa": "Distribuidora Halcón",
+    "empresa_corta": "Halcón",
+    "fecha": "Octubre 2026",
+    "rol_usuario": "Director general",
+    "industria": "Distribución mayorista de material eléctrico",
+    "subindustria": "Material eléctrico e iluminación para contratistas e industria",
+    "pais": "México",
+    "ilustrativo": true
+  },
+  "arranque": "A2",
+  "portada": {
+    "titulo": "Cinco sistemas agénticos para Distribuidora Halcón",
+    "subtitulo": "Dónde mueven ventas, margen y capital de trabajo"
+  },
+  "resumen": {
+    "titulo": "Cinco sistemas agénticos atacan las fugas de Halcón en cotización, cobranza y abasto; cobranza arranca en 90 días",
+    "situacion": "Halcón distribuye material eléctrico e iluminación desde **38 sucursales** a contratistas, constructoras e industria del Bajío y el norte. La relocalización de plantas sostiene la demanda y el crédito a contratistas financia cerca de 70% de la venta.",
+    "complicacion": "El valor se pierde en el trabajo entre sistemas: **cotizaciones que tardan dos a tres días**, depósitos que se aplican a mano y órdenes de compra que nadie persigue. Ese trabajo vive en correo, WhatsApp y Excel, fuera del ERP.",
+    "resolucion": "Cinco sistemas agénticos toman ese trabajo con límites escritos: **cotización, cobranza, abasto, garantías y estatus de pedido**. Una persona firma solo la excepción. Arranca **cobranza**, porque usa datos que ya existen y libera caja en 90 días.",
+    "porque_arranque": "Usa datos que ya están en el banco y el ERP, y su efecto en días de cartera se mide desde el primer mes.",
+    "fuente": "Ejemplo ilustrativo: empresa y cifras ficticias · Conversación con la Dirección General · Investigación de industria CRITERIUM"
+  },
+  "empresa": {
+    "titulo": "Halcón vende a contratistas e industria desde 38 sucursales y financia con crédito propio cerca de 70% de su venta",
+    "descripcion": "Distribuidor mayorista de **material eléctrico, iluminación y automatización** con 38 sucursales en el Bajío y el norte de México. Atiende a contratistas eléctricos, constructoras e industria manufacturera, con entrega a obra y crédito a 30 y 60 días.",
+    "modelo": [
+      { "label": "Qué vende", "texto": "Cable, tubería, tableros, iluminación LED y automatización: cerca de 28,000 productos activos de 160 marcas." },
+      { "label": "A quién", "texto": "Contratistas eléctricos (55% de la venta), constructoras (25%) e industria manufacturera (20%)." },
+      { "label": "Cómo gana", "texto": "Margen de distribución sobre el precio de lista del fabricante, más bonificaciones por volumen de las marcas." },
+      { "label": "Cómo opera", "texto": "Pedido por vendedor, mostrador, correo y WhatsApp; ERP central, CEDIS en Querétaro y reparto propio a obra." }
+    ],
+    "datos": [
+      { "valor": "38", "etiqueta": "sucursales en el Bajío y el norte", "fuente": "Ilustrativo" },
+      { "valor": "~1,400", "etiqueta": "colaboradores", "fuente": "Ilustrativo" },
+      { "valor": "~70%", "etiqueta": "de la venta se otorga a crédito", "fuente": "Ilustrativo" },
+      { "valor": "28,000", "etiqueta": "productos activos de 160 marcas", "fuente": "Ilustrativo" }
+    ],
+    "posicion": "Distribuidor regional entre los cinco primeros del Bajío. Compite con cadenas nacionales en surtido y con distribuidores locales en precio y en crédito a contratistas.",
+    "fuente": "Ejemplo ilustrativo: empresa y cifras ficticias"
+  },
+  "fuerzas": {
+    "titulo": "La relocalización industrial sube la demanda, mientras el crédito a contratistas y la competencia en precio presionan caja y margen",
+    "fuerzas": [
+      { "icono": "building", "nombre": "Relocalización de plantas en el Bajío y el norte", "dato": "La construcción de naves industriales sostiene la demanda de material eléctrico de obra y de mantenimiento.", "palanca": "ventas", "implicacion": "Más cotizaciones grandes con listas técnicas; el distribuidor que responde primero gana el pedido.", "destacada": true },
+      { "icono": "clock", "nombre": "Plazos de crédito que se estiran", "dato": "El contratista paga cuando cobra su estimación de obra; el plazo real excede el pactado.", "palanca": "capital", "implicacion": "Cada día adicional de cartera inmoviliza caja que financia la operación." },
+      { "icono": "percent", "nombre": "Competencia en precio por proyecto", "dato": "Cadenas nacionales y plataformas B2B publican precio y existencia en línea.", "palanca": "margen", "implicacion": "Los descuentos se autorizan caso por caso y reducen el margen sin dejar registro de la razón." },
+      { "icono": "repeat", "nombre": "Abasto irregular de fabricantes", "dato": "Entregas parciales y cambios de fecha en cable y tableros son frecuentes.", "palanca": "capital", "implicacion": "Se compensa con inventario de seguridad y con seguimiento manual a cada orden de compra." },
+      { "icono": "users", "nombre": "Clientes que esperan respuesta inmediata", "dato": "El contratista pide por WhatsApp y espera confirmación de existencia y entrega el mismo día.", "palanca": "ventas", "implicacion": "Vendedores y mostrador dedican horas a responder estatus en lugar de cotizar." }
+    ],
+    "fuente": "Ejemplo ilustrativo · en una corrida real cada dato lleva su fuente y año"
+  },
+  "mapa_valor": {
+    "titulo": "En distribución eléctrica el valor se juega en cotización, crédito y abasto, y en Halcón ese trabajo vive fuera del ERP",
+    "subfunciones": [
+      { "nombre": "Cotización y venta a proyecto", "ventas": 3, "margen": 2, "capital": 0, "nota": "Listas técnicas en PDF y fotos se capturan a mano; 2 a 3 días por cotización grande.", "agentes": ["A1"] },
+      { "nombre": "Crédito y cobranza", "ventas": 1, "margen": 0, "capital": 3, "nota": "Depósitos sin referencia se concilian en Excel; los vencidos se persiguen por teléfono.", "agentes": ["A2"] },
+      { "nombre": "Compras y abasto", "ventas": 1, "margen": 2, "capital": 3, "nota": "Confirmaciones de órdenes de compra por correo que nadie persigue; faltantes sin reclamar.", "agentes": ["A3"] },
+      { "nombre": "Devoluciones y garantías", "ventas": 1, "margen": 2, "capital": 1, "nota": "Cada caso se resuelve distinto; la garantía del fabricante casi nunca se reclama.", "agentes": ["A4"] },
+      { "nombre": "Servicio y estatus de pedido", "ventas": 2, "margen": 0, "capital": 0, "nota": "Preguntas de estatus por WhatsApp a vendedores y sucursal, sin acceso a la ruta.", "agentes": ["A5"] },
+      { "nombre": "Precios y descuentos", "ventas": 1, "margen": 3, "capital": 0, "nota": "Descuentos por proyecto autorizados por teléfono, sin registro de la razón." },
+      { "nombre": "Logística y reparto a obra", "ventas": 1, "margen": 2, "capital": 0, "nota": "Rutas armadas a mano por el jefe de reparto; entregas reprogramadas sin aviso." },
+      { "nombre": "Inventario por sucursal", "ventas": 2, "margen": 1, "capital": 2, "nota": "Diferencias entre sistema y anaquel que se corrigen solo en el inventario anual." }
+    ],
+    "fuente": "Ejemplo ilustrativo: intensidad estimada con la conversación con la empresa y la investigación de industria"
+  },
+  "casos_industria": {
+    "titulo": "Distribuidores industriales ya usan agentes en cotización, cobranza y servicio, con resultados medidos en horas y días de cartera",
+    "casos": [
+      { "empresa": "Distribuidor industrial de EE.UU.", "subfuncion": "Cotización", "que_hace": "Un agente lee solicitudes de cotización por correo, identifica productos y equivalencias y arma la propuesta para revisión del vendedor.", "resultado": "Respuesta de 48 a 6 horas en cotizaciones estándar", "fecha": "2025", "tipo_fuente": "ejemplo ilustrativo", "destacado": true },
+      { "empresa": "Mayorista de construcción en Latinoamérica", "subfuncion": "Cobranza", "que_hace": "Un agente concilia depósitos contra facturas, aplica pagos y envía estados de cuenta con recordatorios por WhatsApp.", "resultado": "8 días menos de cartera en un año", "fecha": "2026", "tipo_fuente": "ejemplo ilustrativo" },
+      { "empresa": "Distribuidor eléctrico europeo", "subfuncion": "Servicio al cliente", "que_hace": "Un agente responde estatus de pedido y disponibilidad por chat, con datos del ERP y de la paquetería.", "resultado": "6 de cada 10 consultas resueltas sin un ejecutivo", "fecha": "2026", "tipo_fuente": "ejemplo ilustrativo" },
+      { "empresa": "Distribuidor de refacciones industriales", "subfuncion": "Compras", "que_hace": "Un agente persigue confirmaciones de órdenes de compra y actualiza fechas de entrega en el ERP.", "resultado": "Mitad del trabajo de seguimiento a proveedores", "fecha": "2025", "tipo_fuente": "ejemplo ilustrativo" },
+      { "empresa": "Fabricante y distribuidor de iluminación", "subfuncion": "Garantías", "que_hace": "Un agente valida reclamos de garantía contra factura y política, y arma el expediente para el fabricante.", "resultado": "Resolución de 9 a 3 días por reclamo", "fecha": "2026", "tipo_fuente": "ejemplo ilustrativo" },
+      { "empresa": "Cadena de material eléctrico", "subfuncion": "Precios", "que_hace": "Un agente revisa descuentos solicitados contra margen mínimo e historial del cliente antes de pedir autorización.", "resultado": "Descuentos fuera de política de 18% a 6%", "fecha": "2026", "tipo_fuente": "ejemplo ilustrativo" }
+    ],
+    "fuente": "Ejemplo ilustrativo: casos y cifras ficticios · en una corrida real cada caso lleva empresa, fuente y fecha verificables"
+  },
+  "matriz_casos": {
+    "titulo": "Cotización y cobranza combinan impacto alto con práctica probada en la industria; descuentos y ruteo quedan como apuestas por probar",
+    "casos": [
+      { "nombre": "Cotización desde listas", "impacto": 5, "madurez": 4, "es_prioridad": true },
+      { "nombre": "Cobranza y pagos", "impacto": 4, "madurez": 5, "es_prioridad": true },
+      { "nombre": "Seguimiento a proveedores", "impacto": 4, "madurez": 3, "es_prioridad": true },
+      { "nombre": "Devoluciones y garantías", "impacto": 3, "madurez": 3, "es_prioridad": true },
+      { "nombre": "Estatus de pedido", "impacto": 2, "madurez": 5, "es_prioridad": true },
+      { "nombre": "Autorización de descuentos", "impacto": 4, "madurez": 2 },
+      { "nombre": "Ruteo de reparto", "impacto": 3, "madurez": 2 },
+      { "nombre": "Contenido de catálogo", "impacto": 1, "madurez": 4 }
+    ],
+    "lectura": [
+      "**Arriba a la derecha** quedan los casos con impacto alto y práctica probada: cotización desde listas y cobranza.",
+      "**Autorización de descuentos** tiene impacto alto y poca práctica publicada; conviene probarla después del primer piloto.",
+      "**Estatus de pedido** tiene impacto menor y mucha práctica; se monta rápido sobre los datos del agente de cotización."
+    ],
+    "fuente": "Ejemplo ilustrativo · impacto: conversación con la empresa; madurez: casos publicados en la industria"
+  },
+  "diagnostico": {
+    "titulo": "Las cinco fugas que describió la Dirección General viven en correo, WhatsApp y Excel, fuera del ERP",
+    "dolores": [
+      { "dolor": "Cotizaciones grandes tardan 2 a 3 días y se pierden pedidos", "cita": "La semana pasada perdimos un pedido de 1,800 luminarias porque la cotización salió el jueves y el cliente ya había comprado el martes.", "palanca": "ventas", "agente": "A1", "estado": "confirmada" },
+      { "dolor": "Depósitos sin referencia que se aplican a mano", "cita": "Tenemos dos personas que se pasan la mañana cuadrando depósitos contra facturas en Excel; lo vencido se persigue cuando hay tiempo.", "palanca": "capital", "agente": "A2", "estado": "confirmada" },
+      { "dolor": "Órdenes de compra sin confirmación ni seguimiento", "cita": "Nos enteramos de que el cable no llegó cuando el cliente ya está en la obra esperando.", "palanca": "capital", "agente": "A3", "estado": "confirmada" },
+      { "dolor": "Garantías del fabricante que no se reclaman", "cita": "Sí pasa, pero distinto: al cliente le reponemos, el problema es que la garantía del fabricante casi nunca la reclamamos.", "palanca": "margen", "agente": "A4", "estado": "hipotesis" },
+      { "dolor": "Vendedores contestando estatus en lugar de vender", "cita": "Mis vendedores contestan dónde viene el material veinte veces al día por WhatsApp.", "palanca": "ventas", "agente": "A5", "estado": "confirmada" }
+    ],
+    "otras_palancas": [
+      { "dolor": "El reporte semanal de ventas se arma copiando de tres sistemas", "tipo": "analitica", "por_que": "Los pasos son fijos y la regla es estable: un tablero conectado al ERP lo resuelve sin un agente." },
+      { "dolor": "Inventario que no cuadra entre sistema y anaquel", "tipo": "proceso", "por_que": "La causa es el conteo anual. Un conteo cíclico por sucursal es condición previa para cotización y estatus." }
+    ],
+    "fuente": "Conversación con la Dirección General de Halcón (ejemplo ilustrativo) · Investigación de industria CRITERIUM"
+  },
+  "que_es": {
+    "ejemplo": "El agente de cobranza recibe la meta **cobrar cada factura en su plazo**. Cada mañana cruza los depósitos del banco contra las facturas abiertas del ERP, aplica los que cuadran, envía estado de cuenta por WhatsApp y pasa a Crédito solo las cuentas con más de 60 días o con promesa incumplida."
+  },
+  "cinco_agentes": {
+    "titulo": "Los cinco sistemas atacan las fugas que más pesan en ventas y capital de trabajo, y trabajan sobre datos que Halcón ya tiene",
+    "fuente": "Selección con la prueba de forma de agente (cuatro de seis señales) sobre la conversación con la Dirección General · ejemplo ilustrativo"
+  },
+  "agentes": [
+    {
+      "id": "A1",
+      "nombre": "Agente de cotización",
+      "nombre_corto": "Cotización",
+      "meta": "Responder cada solicitud de cotización el mismo día, con existencia real y dentro de la política de precios",
+      "dolor": "Cotizaciones grandes tardan 2 a 3 días y se pierden pedidos",
+      "palanca": "ventas",
+      "palancas_secundarias": ["margen"],
+      "kpis": ["Horas de respuesta por cotización", "Tasa de conversión de cotizaciones", "Cotizaciones sin seguimiento", "Descuento promedio por proyecto"],
+      "magnitud": "grande",
+      "magnitud_razon": "La Dirección estima que 1 de cada 5 cotizaciones grandes se pierde por tiempo de respuesta.",
+      "estado": "confirmada",
+      "por_que": "Es la fuga que más venta cuesta y el trabajo es de lectura: **listas en PDF, fotos y Excel** que hoy se capturan a mano.",
+      "impacto": { "origen": "empresa", "formula": "Cotizaciones perdidas por tiempo al mes × conversión × ticket promedio × margen = venta recuperada" },
+      "trabaja": {
+        "titulo": "La cotización de 1,800 luminarias tardó tres días porque alguien capturó a mano una lista en PDF de 140 renglones",
+        "sintoma": "El cliente compró con otro distribuidor el martes; la cotización de Halcón salió el jueves.",
+        "causa": "Las solicitudes llegan como PDF, foto o Excel por correo y WhatsApp; el vendedor captura cada renglón, busca equivalencias y confirma existencia por teléfono.",
+        "hoy": "Un vendedor dedica 3 a 5 horas a una cotización de 140 renglones y la arma entre otras tareas.",
+        "con_agente": "El vendedor recibe la cotización armada en una hora y solo revisa equivalencias y descuento.",
+        "gente": [
+          { "rol": "Vendedor", "hace": "Revisa y envía la cotización; negocia con el cliente." },
+          { "rol": "Gerente comercial", "hace": "Fija la política de descuentos y firma lo que la rebasa." },
+          { "rol": "Compras", "hace": "Confirma fecha de entrega cuando no hay existencia." }
+        ],
+        "verbos": {
+          "revisa": "cada solicitud que entra por correo y WhatsApp",
+          "diagnostica": "producto, equivalencia, existencia y precio",
+          "actua": "arma la cotización y aparta existencia 48 horas",
+          "reporta": "lo enviado y lo que requiere firma"
+        },
+        "ia_clasica": ["Lista de precios y reglas de margen", "Catálogo de equivalencias"],
+        "recomienda": "precio y margen mínimo por cliente",
+        "limites": ["Descuento máximo por tipo de cliente", "Proyectos grandes van al gerente", "Sin existencia, no promete fecha"],
+        "escala_a": "Gerente comercial, con el caso armado"
+      },
+      "funciona": {
+        "titulo": "La lista llega a las 9:10 y a las 10:20 el vendedor ya tiene una cotización armada para revisar y enviar",
+        "escena": "solicitud por WhatsApp · martes 09:10",
+        "pasos": [
+          { "accion": "Lee la solicitud", "detalle": "PDF de 140 renglones de un contratista: luminarias, cable y tableros", "capacidad": "generativa" },
+          { "accion": "Identifica cada producto", "detalle": "132 coinciden con el catálogo; 8 requieren equivalencia de otra marca", "capacidad": "agente" },
+          { "accion": "Confirma existencia y precio", "detalle": "Existencia en Querétaro y León; precio con la política del cliente", "capacidad": "modelo" },
+          { "accion": "Arma y aparta", "detalle": "Cotización en el formato de Halcón; aparta existencia 48 horas", "capacidad": "agente" },
+          { "accion": "Pide firma del descuento", "detalle": "El cliente pide 12% y la política permite 9%", "capacidad": "humana" },
+          { "accion": "Da seguimiento", "detalle": "Sin respuesta en 24 horas, avisa al vendedor con el contexto", "capacidad": "agente" }
+        ],
+        "recibe_quien": "el vendedor",
+        "resultado": "**10:20** · cotización de 140 renglones lista para revisar, con 8 equivalencias marcadas y existencia apartada.",
+        "firma": { "quien": "Gerente comercial", "que": "Autoriza el descuento de 12% sobre una política de 9%, con el margen y el historial del cliente a la vista." }
+      },
+      "construye": {
+        "titulo": "El agente de cotización lee catálogo, existencia y política de precios, y solo escribe la cotización y el apartado",
+        "canales": ["WhatsApp", "Correo", "Portal de clientes"],
+        "personas": ["Vendedor", "Gerente comercial"],
+        "herramientas": ["Lector de PDF e imágenes", "Conector al ERP", "WhatsApp Business", "Motor de precios"],
+        "cerebro": ["Catálogo y equivalencias", "Existencia por sucursal", "Clientes y condiciones", "Política de descuentos", "Historial de cotizaciones"],
+        "sistemas": [
+          { "nombre": "ERP", "acceso": "lee y escribe" },
+          { "nombre": "WhatsApp Business", "acceso": "lee y escribe" },
+          { "nombre": "Correo", "acceso": "lee" },
+          { "nombre": "Catálogos de marcas", "acceso": "lee" }
+        ],
+        "autonomia": [
+          { "accion": "Armar la cotización y apartar existencia 48 h", "nivel": "N1" },
+          { "accion": "Enviar la cotización al cliente", "nivel": "N2" },
+          { "accion": "Dar seguimiento a cotizaciones sin respuesta", "nivel": "N1" },
+          { "accion": "Aplicar un descuento fuera de política", "nivel": "N3" }
+        ],
+        "prerrequisitos": ["Catálogo con equivalencias por marca en un solo lugar", "Existencia por sucursal confiable, con conteo cíclico", "Política de descuentos escrita por tipo de cliente"],
+        "ruta": [
+          { "fase": "Diagnóstico", "semanas": "semanas 0–4", "entregable": "Muestra de 200 cotizaciones: línea base de horas y conversión" },
+          { "fase": "Piloto con grupo de control", "semanas": "semanas 5–16", "entregable": "Seis vendedores con agente frente a seis sin agente" },
+          { "fase": "Escala", "semanas": "semana 17 en adelante", "entregable": "Todas las sucursales, si la conversión sube frente al grupo de control" }
+        ]
+      }
+    },
+    {
+      "id": "A2",
+      "nombre": "Agente de cobranza",
+      "nombre_corto": "Cobranza",
+      "meta": "Cobrar cada factura en su plazo y aplicar cada depósito el mismo día",
+      "dolor": "Depósitos sin referencia que se aplican a mano",
+      "palanca": "capital",
+      "kpis": ["Días de cartera", "Depósitos sin aplicar al cierre del día", "Cartera vencida a más de 60 días", "Promesas de pago cumplidas"],
+      "magnitud": "grande",
+      "magnitud_razon": "Dos personas de tiempo completo concilian depósitos y la cartera vencida rebasa en más de 15 días el plazo pactado.",
+      "estado": "confirmada",
+      "por_que": "Libera caja en semanas y sus datos **ya existen en el banco y el ERP**; por eso es el arranque recomendado.",
+      "impacto": { "origen": "calculado", "formula": "(Días de cartera hoy − días con el agente) × venta diaria a crédito = caja liberada" },
+      "trabaja": {
+        "titulo": "La cartera se estira porque los depósitos tardan días en aplicarse y los vencidos se persiguen cuando sobra tiempo",
+        "sintoma": "Clientes que ya pagaron reciben llamadas de cobranza, y otros con 70 días de atraso siguen comprando a crédito.",
+        "causa": "Los depósitos llegan sin referencia; dos personas los concilian en Excel y el seguimiento a vencidos se hace por teléfono, sin registro.",
+        "hoy": "Dos personas pasan la mañana cuadrando 1,900 depósitos al mes contra facturas abiertas.",
+        "con_agente": "Las dos personas revisan solo los depósitos que no cuadran y negocian las cuentas difíciles.",
+        "gente": [
+          { "rol": "Analista de crédito", "hace": "Revisa los depósitos que no cuadran y negocia cuentas difíciles." },
+          { "rol": "Gerente de crédito", "hace": "Fija plazos y límites; firma bloqueos y reestructuras." },
+          { "rol": "Vendedor", "hace": "Recibe aviso antes de vender a una cuenta vencida." }
+        ],
+        "verbos": {
+          "revisa": "cada depósito y cada factura abierta, cada mañana",
+          "diagnostica": "a qué factura corresponde el pago y qué cuenta se atrasa",
+          "actua": "aplica el pago, envía estado de cuenta y registra promesas",
+          "reporta": "lo aplicado, lo vencido y lo que requiere firma"
+        },
+        "ia_clasica": ["Modelo de riesgo de crédito", "Reglas de conciliación bancaria"],
+        "recomienda": "qué cuentas tienen más riesgo de atraso",
+        "limites": ["Bloqueo de crédito: solo lo propone", "No negocia quitas ni plazos", "Mensajes solo con plantillas aprobadas"],
+        "escala_a": "Gerente de crédito, con el historial de la cuenta"
+      },
+      "funciona": {
+        "titulo": "Antes de las 9:00 los depósitos de ayer ya están aplicados y el gerente de crédito solo decide siete cuentas",
+        "escena": "corrida diaria · 07:00",
+        "pasos": [
+          { "accion": "Lee los depósitos del día", "detalle": "212 movimientos del estado de cuenta bancario de ayer", "capacidad": "agente" },
+          { "accion": "Concilia contra facturas abiertas", "detalle": "196 cuadran por monto, RFC o referencia parcial; 16 no cuadran", "capacidad": "modelo" },
+          { "accion": "Aplica los pagos en el ERP", "detalle": "196 pagos aplicados y complementos de pago solicitados", "capacidad": "agente" },
+          { "accion": "Escribe a las cuentas vencidas", "detalle": "84 estados de cuenta por WhatsApp con la plantilla aprobada", "capacidad": "generativa" },
+          { "accion": "Registra promesas y avisa a ventas", "detalle": "23 promesas de pago con fecha; 5 vendedores avisados", "capacidad": "agente" },
+          { "accion": "Prepara las decisiones", "detalle": "7 cuentas a más de 60 días con propuesta de bloqueo", "capacidad": "humana" }
+        ],
+        "recibe_quien": "Crédito y Cobranza",
+        "resultado": "**08:45** · 196 pagos aplicados, 16 depósitos por revisar con su factura más probable y 7 cuentas para decidir.",
+        "firma": { "quien": "Gerente de crédito", "que": "Decide si bloquea el crédito de 7 cuentas a más de 60 días, con historial de pagos y promesas incumplidas a la vista." }
+      },
+      "construye": {
+        "titulo": "El agente de cobranza lee banco y ERP, escribe solo pagos aplicados y mensajes con plantilla, y deja el bloqueo a una persona",
+        "canales": ["WhatsApp", "Correo"],
+        "personas": ["Analista de crédito", "Gerente de crédito"],
+        "herramientas": ["Conector bancario", "Conector al ERP", "WhatsApp Business", "Modelo de riesgo"],
+        "cerebro": ["Facturas abiertas", "Clientes y RFC", "Condiciones de crédito", "Promesas de pago", "Historial de pagos"],
+        "sistemas": [
+          { "nombre": "ERP", "acceso": "lee y escribe" },
+          { "nombre": "Banca en línea", "acceso": "lee" },
+          { "nombre": "WhatsApp Business", "acceso": "lee y escribe" },
+          { "nombre": "Portal del SAT", "acceso": "lee" }
+        ],
+        "autonomia": [
+          { "accion": "Aplicar pagos que cuadran por monto y RFC", "nivel": "N1" },
+          { "accion": "Enviar estado de cuenta con plantilla", "nivel": "N1" },
+          { "accion": "Bloquear el crédito de una cuenta", "nivel": "N2" },
+          { "accion": "Negociar quitas o cambiar plazos", "nivel": "N3" }
+        ],
+        "prerrequisitos": ["Lectura diaria del estado de cuenta bancario", "Plantillas de mensaje aprobadas por Crédito y Jurídico", "Regla escrita de bloqueo por días de atraso"],
+        "ruta": [
+          { "fase": "Diagnóstico", "semanas": "semanas 0–3", "entregable": "Línea base de días de cartera y depósitos sin aplicar" },
+          { "fase": "Piloto con grupo de control", "semanas": "semanas 4–12", "entregable": "Una región con agente frente a otra sin agente" },
+          { "fase": "Escala", "semanas": "semana 13 en adelante", "entregable": "Todas las regiones, si baja la cartera frente al grupo de control" }
+        ]
+      }
+    },
+    {
+      "id": "A3",
+      "nombre": "Agente de abasto",
+      "nombre_corto": "Abasto",
+      "meta": "Que cada orden de compra llegue completa y en fecha, y que cada faltante se reclame",
+      "dolor": "Órdenes de compra sin confirmación ni seguimiento",
+      "palanca": "capital",
+      "palancas_secundarias": ["ventas"],
+      "kpis": ["Órdenes confirmadas en 48 horas", "Entregas completas y a tiempo", "Días de inventario de seguridad", "Notas de crédito por faltantes cobradas"],
+      "magnitud": "mediano",
+      "magnitud_razon": "Una persona de tiempo completo persigue proveedores por correo y teléfono; los faltantes se descubren en la obra.",
+      "estado": "confirmada",
+      "por_que": "El seguimiento vive en **correos con 160 marcas** y nadie lo persigue; un retraso detectado a tiempo evita una venta perdida.",
+      "impacto": { "origen": "industria", "formula": "Inventario de seguridad hoy × días que se reducen con abasto confiable = capital liberado" },
+      "trabaja": {
+        "titulo": "El cliente se enteró antes que Halcón de que el cable no llegó: la confirmación de la orden de compra quedó en un correo",
+        "sintoma": "Un contratista esperó material en la obra y Halcón supo del retraso por el propio cliente.",
+        "causa": "Las confirmaciones de 160 marcas llegan por correo en formatos distintos y nadie actualiza la fecha en el ERP.",
+        "hoy": "Un comprador persigue proveedores por correo y teléfono, y atiende primero al pedido con más presión.",
+        "con_agente": "El comprador recibe solo los retrasos que afectan pedidos de clientes, con alternativa de proveedor.",
+        "gente": [
+          { "rol": "Comprador", "hace": "Decide alternativas cuando un proveedor falla." },
+          { "rol": "Gerente de compras", "hace": "Fija tolerancias y firma cambios de proveedor." },
+          { "rol": "Vendedor", "hace": "Recibe aviso del retraso antes que el cliente." }
+        ],
+        "verbos": {
+          "revisa": "cada orden de compra abierta y cada correo de proveedor",
+          "diagnostica": "qué llega tarde, incompleto o con otro precio",
+          "actua": "pide confirmación, actualiza la fecha y reclama faltantes",
+          "reporta": "retrasos que afectan pedidos de clientes"
+        },
+        "ia_clasica": ["Punto de reorden del ERP", "Pronóstico de demanda"],
+        "recomienda": "cuánto y cuándo comprar",
+        "limites": ["Cambio de proveedor: solo lo propone", "No acepta aumentos de precio", "Reclama faltantes con evidencia"],
+        "escala_a": "Comprador, con el impacto en pedidos de clientes"
+      },
+      "funciona": {
+        "titulo": "Cada orden de compra abierta tiene fecha confirmada, y el vendedor sabe del retraso antes que el cliente",
+        "escena": "revisión de órdenes abiertas · 06:30",
+        "pasos": [
+          { "accion": "Revisa órdenes abiertas", "detalle": "418 órdenes de compra; 37 sin confirmación del proveedor", "capacidad": "agente" },
+          { "accion": "Pide confirmación", "detalle": "37 correos a proveedores en su formato; 29 responden en 24 horas", "capacidad": "generativa" },
+          { "accion": "Lee las respuestas", "detalle": "Detecta 6 entregas parciales y 2 cambios de precio", "capacidad": "generativa" },
+          { "accion": "Actualiza el ERP", "detalle": "Fechas nuevas en 29 órdenes; aviso a 9 vendedores con pedidos afectados", "capacidad": "agente" },
+          { "accion": "Reclama faltantes", "detalle": "4 notas de crédito solicitadas con la evidencia de recepción", "capacidad": "agente" },
+          { "accion": "Escala el cambio de precio", "detalle": "2 aumentos de precio para decisión del comprador", "capacidad": "humana" }
+        ],
+        "recibe_quien": "Compras",
+        "resultado": "**07:30** · 29 órdenes confirmadas, 9 vendedores avisados y 2 cambios de precio para decidir.",
+        "firma": { "quien": "Comprador", "que": "Acepta o rechaza 2 aumentos de precio y decide si cambia de proveedor en una orden con cliente esperando." }
+      },
+      "construye": {
+        "titulo": "El agente de abasto lee el correo de proveedores y escribe en el ERP solo fechas y reclamos; Compras decide proveedores",
+        "canales": ["Correo", "Portal de proveedores"],
+        "personas": ["Comprador", "Vendedor"],
+        "herramientas": ["Lector de correos y PDF", "Conector al ERP", "Conector de correo", "Punto de reorden"],
+        "cerebro": ["Órdenes de compra", "Proveedores y tolerancias", "Pedidos de clientes ligados", "Recepciones en CEDIS"],
+        "sistemas": [
+          { "nombre": "ERP", "acceso": "lee y escribe" },
+          { "nombre": "Correo de Compras", "acceso": "lee y escribe" },
+          { "nombre": "Portales de proveedores", "acceso": "lee" },
+          { "nombre": "WMS del CEDIS", "acceso": "lee" }
+        ],
+        "autonomia": [
+          { "accion": "Pedir confirmación y actualizar fechas", "nivel": "N1" },
+          { "accion": "Reclamar faltantes con evidencia", "nivel": "N1" },
+          { "accion": "Cambiar de proveedor en una orden", "nivel": "N2" },
+          { "accion": "Aceptar un cambio de precio", "nivel": "N3" }
+        ],
+        "prerrequisitos": ["Correo de Compras centralizado en una bandeja", "Recepciones registradas en el WMS el mismo día", "Tolerancias escritas de precio y fecha por proveedor"],
+        "ruta": [
+          { "fase": "Diagnóstico", "semanas": "semanas 0–4", "entregable": "Línea base de órdenes confirmadas y entregas completas" },
+          { "fase": "Piloto con grupo de control", "semanas": "semanas 5–14", "entregable": "Las 40 marcas principales con agente frente al resto" },
+          { "fase": "Escala", "semanas": "semana 15 en adelante", "entregable": "Las 160 marcas, si suben las entregas completas" }
+        ]
+      }
+    },
+    {
+      "id": "A4",
+      "nombre": "Agente de garantías",
+      "nombre_corto": "Garantías",
+      "meta": "Resolver cada devolución en 72 horas y recuperar del fabricante cada garantía procedente",
+      "dolor": "Garantías del fabricante que no se reclaman",
+      "palanca": "margen",
+      "kpis": ["Garantías recuperadas del fabricante", "Días para resolver una devolución", "Costo de devoluciones sobre venta"],
+      "magnitud": "mediano",
+      "magnitud_razon": "La Dirección reconoce que la garantía del fabricante casi nunca se reclama; la magnitud se valida con Calidad.",
+      "estado": "hipotesis",
+      "por_que": "Cada garantía no reclamada es **margen que absorbe Halcón**; los datos están en facturas, lotes y fotos del producto.",
+      "impacto": { "origen": "industria", "formula": "Garantías procedentes al año × parte que hoy no se reclama × costo promedio = margen recuperable" },
+      "trabaja": {
+        "titulo": "Halcón repone al cliente, pero casi nunca reclama la garantía al fabricante porque armar el expediente toma horas",
+        "sintoma": "Halcón repone luminarias defectuosas al contratista y absorbe el costo completo.",
+        "causa": "Cada fabricante pide un expediente distinto (factura, lote, fotos, prueba) y nadie en sucursal tiene tiempo de armarlo.",
+        "hoy": "El mostrador recibe la devolución, la resuelve con criterio propio y el expediente para el fabricante no se arma.",
+        "con_agente": "El mostrador valida el producto; el agente arma el expediente y lo persigue con el fabricante.",
+        "gente": [
+          { "rol": "Mostrador", "hace": "Recibe el producto y valida su estado físico." },
+          { "rol": "Calidad", "hace": "Define qué es procedente y firma excepciones." },
+          { "rol": "Representante de marca", "hace": "Recibe el expediente completo." }
+        ],
+        "verbos": {
+          "revisa": "cada solicitud de devolución o garantía",
+          "diagnostica": "si procede según factura, lote y política",
+          "actua": "agenda la recolección y arma el expediente del fabricante",
+          "reporta": "lo resuelto y lo recuperado"
+        },
+        "ia_clasica": [],
+        "limites": ["Reembolsos: solo los propone", "Política de devolución escrita por marca", "Expediente completo antes de reclamar"],
+        "escala_a": "Calidad, con fotos y factura"
+      },
+      "funciona": {
+        "titulo": "Una devolución de 40 luminarias se resuelve en 48 horas y el expediente de garantía sale al fabricante el mismo día",
+        "escena": "solicitud de garantía · jueves 11:00",
+        "pasos": [
+          { "accion": "Recibe la solicitud", "detalle": "Contratista reporta 40 luminarias con falla por WhatsApp, con fotos", "capacidad": "generativa" },
+          { "accion": "Valida contra factura y lote", "detalle": "Compra de hace 4 meses; lote con 3 reclamos previos", "capacidad": "agente" },
+          { "accion": "Agenda recolección", "detalle": "Ruta del viernes desde la sucursal León", "capacidad": "agente" },
+          { "accion": "Confirma estado físico", "detalle": "El mostrador revisa y confirma la falla", "capacidad": "humana" },
+          { "accion": "Arma el expediente", "detalle": "Formato del fabricante con factura, lote, fotos y prueba", "capacidad": "generativa" },
+          { "accion": "Persigue la nota de crédito", "detalle": "Recordatorio semanal al representante hasta recibirla", "capacidad": "agente" }
+        ],
+        "recibe_quien": "Calidad",
+        "resultado": "**viernes 13:00** · devolución resuelta y expediente enviado al fabricante, con seguimiento semanal.",
+        "firma": { "quien": "Calidad", "que": "Aprueba reponer 40 luminarias antes de recibir la nota de crédito del fabricante." }
+      },
+      "construye": {
+        "titulo": "El agente de garantías lee facturas, lotes y fotos, y deja a Calidad la decisión de reponer antes de recuperar el costo",
+        "canales": ["WhatsApp", "Mostrador"],
+        "personas": ["Mostrador", "Calidad"],
+        "herramientas": ["Lector de fotos y PDF", "Conector al ERP", "Formatos por marca"],
+        "cerebro": ["Facturas y lotes", "Política por marca", "Historial de reclamos", "Representantes de marca"],
+        "sistemas": [
+          { "nombre": "ERP", "acceso": "lee y escribe" },
+          { "nombre": "WhatsApp Business", "acceso": "lee y escribe" },
+          { "nombre": "Correo", "acceso": "lee y escribe" },
+          { "nombre": "Portales de fabricantes", "acceso": "lee" }
+        ],
+        "autonomia": [
+          { "accion": "Agendar la recolección", "nivel": "N1" },
+          { "accion": "Enviar el expediente al fabricante", "nivel": "N1" },
+          { "accion": "Reponer producto al cliente", "nivel": "N2" },
+          { "accion": "Rechazar una garantía", "nivel": "N2" }
+        ],
+        "prerrequisitos": ["Política de devolución escrita por marca", "Lote registrado en la factura de venta", "Línea base de garantías reclamadas en 12 meses"],
+        "ruta": [
+          { "fase": "Diagnóstico", "semanas": "semanas 0–4", "entregable": "Validar con Calidad cuántas garantías procedentes no se reclaman" },
+          { "fase": "Piloto con grupo de control", "semanas": "semanas 5–14", "entregable": "Tres marcas de iluminación con agente frente al resto" },
+          { "fase": "Escala", "semanas": "semana 15 en adelante", "entregable": "Todas las marcas con política de garantía" }
+        ]
+      }
+    },
+    {
+      "id": "A5",
+      "nombre": "Agente de estatus de pedido",
+      "nombre_corto": "Estatus",
+      "meta": "Que cada cliente sepa dónde viene su material sin preguntarle a un vendedor",
+      "dolor": "Vendedores contestando estatus en lugar de vender",
+      "palanca": "ventas",
+      "kpis": ["Consultas de estatus atendidas sin vendedor", "Horas de vendedor liberadas por semana", "Entregas reprogramadas sin aviso"],
+      "magnitud": "mediano",
+      "magnitud_razon": "Cada vendedor contesta unas 20 consultas de estatus al día: entre 1 y 3 personas de tiempo completo en la red.",
+      "estado": "confirmada",
+      "por_que": "Devuelve horas de vendedor a la cotización y usa **los mismos datos de pedidos y rutas** que el agente de cotización.",
+      "impacto": { "origen": "empresa", "formula": "Consultas al día × minutos por consulta × vendedores = horas devueltas a la venta" },
+      "trabaja": {
+        "titulo": "Los vendedores contestan veinte veces al día dónde viene el material porque el cliente no tiene otra forma de saberlo",
+        "sintoma": "Un vendedor pasa la tarde contestando WhatsApp de estatus y no da seguimiento a sus cotizaciones.",
+        "causa": "El estatus vive en el ERP y en la hoja de rutas del jefe de reparto; el cliente solo puede preguntarle a su vendedor.",
+        "hoy": "El vendedor consulta el ERP, llama al CEDIS y contesta; si la entrega se mueve, nadie avisa.",
+        "con_agente": "El cliente pregunta por WhatsApp y recibe respuesta en minutos; el vendedor solo atiende quejas.",
+        "gente": [
+          { "rol": "Vendedor", "hace": "Atiende quejas y clientes clave." },
+          { "rol": "Jefe de reparto", "hace": "Confirma rutas y reprogramaciones." }
+        ],
+        "verbos": {
+          "revisa": "cada pregunta de estatus y cada ruta del día",
+          "diagnostica": "dónde está el pedido y si llega a tiempo",
+          "actua": "responde al cliente y avisa cambios de entrega",
+          "reporta": "pedidos en riesgo y quejas"
+        },
+        "ia_clasica": ["Cálculo de ruta y hora estimada"],
+        "recomienda": "hora estimada de llegada",
+        "limites": ["No promete fechas sin dato del CEDIS", "Queja o cliente clave pasa al vendedor", "Solo responde al contacto registrado"],
+        "escala_a": "Vendedor de la cuenta, con la conversación"
+      },
+      "funciona": {
+        "titulo": "El contratista pregunta a las 8:05 dónde viene su cable y a las 8:06 tiene la hora estimada, sin pasar por el vendedor",
+        "escena": "consulta por WhatsApp · lunes 08:05",
+        "pasos": [
+          { "accion": "Recibe la pregunta", "detalle": "Contratista registrado pregunta por su pedido de cable", "capacidad": "generativa" },
+          { "accion": "Ubica el pedido", "detalle": "Pedido surtido en el CEDIS, en la ruta 7", "capacidad": "agente" },
+          { "accion": "Calcula la hora estimada", "detalle": "Llegada entre 11:00 y 12:00 a la obra", "capacidad": "modelo" },
+          { "accion": "Responde al cliente", "detalle": "Mensaje con pedido, ruta y hora estimada", "capacidad": "agente" },
+          { "accion": "Avisa si cambia", "detalle": "Si la ruta se retrasa, avisa antes de la hora prometida", "capacidad": "agente" },
+          { "accion": "Pasa la queja", "detalle": "Cliente molesto por segundo retraso: al vendedor con contexto", "capacidad": "humana" }
+        ],
+        "recibe_quien": "el vendedor",
+        "resultado": "**fin del día** · 140 consultas respondidas sin vendedor y 3 quejas turnadas con la conversación completa.",
+        "firma": { "quien": "Vendedor de la cuenta", "que": "Atiende la queja de un cliente clave con el historial del pedido y la conversación a la vista." }
+      },
+      "construye": {
+        "titulo": "El agente de estatus solo lee pedidos y rutas, y escribe únicamente al cliente registrado por WhatsApp",
+        "canales": ["WhatsApp", "Portal de clientes"],
+        "personas": ["Vendedor", "Jefe de reparto"],
+        "herramientas": ["Conector al ERP", "WhatsApp Business", "Rastreo de unidades"],
+        "cerebro": ["Pedidos y surtido", "Rutas del día", "Contactos de clientes", "Historial de conversaciones"],
+        "sistemas": [
+          { "nombre": "ERP", "acceso": "lee" },
+          { "nombre": "WMS del CEDIS", "acceso": "lee" },
+          { "nombre": "Rastreo de unidades", "acceso": "lee" },
+          { "nombre": "WhatsApp Business", "acceso": "lee y escribe" }
+        ],
+        "autonomia": [
+          { "accion": "Responder estatus a un contacto registrado", "nivel": "N1" },
+          { "accion": "Avisar cambio de hora de entrega", "nivel": "N1" },
+          { "accion": "Reprogramar una entrega", "nivel": "N2" },
+          { "accion": "Ofrecer compensación por retraso", "nivel": "N3" }
+        ],
+        "prerrequisitos": ["Rutas del día registradas en sistema, no en papel", "Contactos de clientes verificados en el ERP", "Número de WhatsApp Business de la empresa"],
+        "ruta": [
+          { "fase": "Diagnóstico", "semanas": "semanas 0–3", "entregable": "Conteo de consultas de estatus por vendedor durante 2 semanas" },
+          { "fase": "Piloto con grupo de control", "semanas": "semanas 4–10", "entregable": "Dos sucursales con agente frente a dos sin agente" },
+          { "fase": "Escala", "semanas": "semana 11 en adelante", "entregable": "Toda la red, con los datos del agente de cotización" }
+        ]
+      }
+    }
+  ],
+  "impacto": {
+    "titulo": "Tres de los cinco sistemas mueven ventas y dos liberan capital de trabajo; cobranza es el que mueve caja en menos tiempo",
+    "lectura": "**Sin cifras de dinero:** la magnitud sale de lo que describió la Dirección y de referencias de industria. Cada fórmula se calcula con los datos de Halcón durante el diagnóstico de cuatro semanas.",
+    "fuente": "Magnitud: grande, más de 3 personas de tiempo completo, más de 5% de pedidos o más de 15 días de caja · ejemplo ilustrativo"
+  },
+  "olas": {
+    "titulo": "Cobranza y abasto arrancan primero porque liberan caja con datos que ya existen; cotización espera a tener el catálogo limpio",
+    "olas": [
+      { "nombre": "Ola 1", "inicio": 0, "fin": 4, "agentes": ["A2", "A3"], "por_que": "Datos listos en banco, ERP y correo; liberan caja que financia las siguientes olas.", "hitos": [{ "mes": 3, "texto": "Resultado firmado por Finanzas" }] },
+      { "nombre": "Ola 2", "inicio": 4, "fin": 10, "agentes": ["A1", "A5"], "por_que": "Requieren catálogo con equivalencias y existencia confiable; comparten datos de pedidos.", "hitos": [{ "mes": 6, "texto": "Catálogo limpio" }] },
+      { "nombre": "Ola 3", "inicio": 8, "fin": 14, "agentes": ["A4"], "por_que": "Arranca después de validar con Calidad cuántas garantías procedentes no se reclaman." }
+    ],
+    "prerrequisitos": [
+      { "titulo": "Datos confiables", "texto": "Existencia por sucursal con conteo cíclico y catálogo con equivalencias por marca." },
+      { "titulo": "Permiso para escribir", "texto": "Acceso del agente al ERP y a WhatsApp Business, con permisos por acción." },
+      { "titulo": "Bitácora de cada acción", "texto": "Registro de lo que hizo cada agente para auditarlo y para que Finanzas firme el resultado." }
+    ],
+    "regla": "Ningún sistema escala sin un piloto de 8 a 12 semanas contra un grupo de control y con el resultado firmado por Finanzas.",
+    "fuente": "Secuencia propuesta por CRITERIUM con base en la conversación con la empresa · meses ilustrativos"
+  },
+  "siguientes": {
+    "titulo": "En 90 días Halcón puede tener el agente de cobranza operando en una región, con su resultado medido contra un grupo de control",
+    "pasos": [
+      { "cuando": "Semanas 1–2", "que": "Nombrar al dueño de negocio de cobranza y medir la línea base de días de cartera.", "quien": "Dirección General · Crédito" },
+      { "cuando": "Semanas 3–4", "que": "Escribir límites, plantillas de mensaje y la regla de bloqueo; dar acceso de lectura al banco.", "quien": "Crédito · Jurídico · TI" },
+      { "cuando": "Semanas 5–8", "que": "Operar el agente en una región, con autonomía N1 solo para pagos que cuadran.", "quien": "Crédito · TI" },
+      { "cuando": "Semanas 9–12", "que": "Comparar contra la región de control y decidir si se escala al resto de la red.", "quien": "Finanzas · Dirección General" }
+    ],
+    "necesita": "Para empezar se necesita **un dueño de negocio en Crédito**, **acceso de lectura al estado de cuenta bancario** y **dos horas a la semana** del equipo de cobranza durante el piloto."
+  }
+}

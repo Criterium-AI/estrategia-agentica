@@ -1,0 +1,8 @@
+{
+  "name": "criterium-estrategia-agentica",
+  "private": true,
+  "description": "Motor de PowerPoint del agente de estrategia agéntica CRITERIUM",
+  "dependencies": {
+    "pptxgenjs": "4.0.1"
+  }
+}

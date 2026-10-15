@@ -1,0 +1,17 @@
+{
+  "name": "criterium",
+  "description": "Estrategia de sistemas agénticos con la metodología CRITERIUM: investiga tu empresa y su industria, conversa contigo máximo 12 preguntas y entrega un PowerPoint de 28 láminas con cinco agentes de IA que mueven ventas, margen y capital de trabajo.",
+  "author": {
+    "name": "CRITERIUM"
+  },
+  "license": "SEE LICENSE",
+  "keywords": [
+    "estrategia",
+    "agentes",
+    "ia",
+    "agentica",
+    "powerpoint",
+    "criterium"
+  ],
+  "repository": "https://github.com/Criterium-AI/estrategia-agentica"
+}

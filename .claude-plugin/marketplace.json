@@ -1,0 +1,12 @@
+{
+  "name": "criterium",
+  "owner": { "name": "CRITERIUM" },
+  "description": "Agentes de CRITERIUM para Claude Code.",
+  "plugins": [
+    {
+      "name": "criterium",
+      "source": "./",
+      "description": "Estrategia de sistemas agénticos para tu empresa, entregada como PowerPoint de 28 láminas."
+    }
+  ]
+}
