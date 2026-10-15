@@ -1,6 +1,6 @@
 # Investigación: empresa, subindustria y dónde la IA ya mueve resultados
 
-La investigación tiene dos usos: llenar las láminas 3 a 7 del deck y preparar la **biblioteca de hipótesis** con la que el discovery arranca. Sin biblioteca no hay discovery corto. Dura 6 a 10 minutos, ocurre en el primer turno (el que lanza el comando) y no le hace ninguna pregunta al usuario.
+La investigación tiene dos usos: llenar las láminas 3 a 7 del deck y preparar la **biblioteca de hipótesis** con la que el discovery arranca. Sin biblioteca no hay discovery corto. Dura 6 a 10 minutos y no le hace ninguna pregunta al usuario.
 
 ## Reglas
 
@@ -10,9 +10,9 @@ La investigación tiene dos usos: llenar las láminas 3 a 7 del deck y preparar 
 - **Casos de industria reales:** empresa con nombre, qué hace el agente o la IA, resultado con número y fecha, y fuente. Si un caso no tiene fuente verificable, no entra.
 - **Subindustria, no industria genérica.** "Distribución mayorista de material eléctrico para contratistas", no "retail". La subindustria define los casos de uso y las fugas de valor.
 
-## Los tres frentes (tú mismo, en el primer turno)
+## Los tres frentes (tú mismo, sin subagentes)
 
-Haz los tres frentes en esta conversación, uno tras otro, sin subagentes: los permisos de búsqueda del comando cubren el turno en que se lanzó y no está garantizado que alcancen a subagentes. Presupuesto: unas 40 búsquedas web en total (hay un tope por sesión); abre directo los documentos clave (reporte anual o trimestral, presentación a inversionistas, informe de sostenibilidad, eventos relevantes en la bolsa) en lugar de buscar cada dato por separado.
+Haz los tres frentes en esta conversación, uno tras otro, sin subagentes: la aprobación automática de búsquedas del plugin está probada en la conversación principal, no en subagentes. Presupuesto: unas 40 búsquedas web en total (hay un tope por sesión); abre directo los documentos clave (reporte anual o trimestral, presentación a inversionistas, informe de sostenibilidad, eventos relevantes en la bolsa) en lugar de buscar cada dato por separado.
 
 ### Frente A · La empresa
 Encargo: perfil verificable de la empresa.

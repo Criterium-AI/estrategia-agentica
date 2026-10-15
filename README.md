@@ -38,17 +38,15 @@ Si Claude Code te pregunta dónde instalarlo, elige **para mi usuario** (user).
 
 1. Abre Claude Code en la carpeta donde quieres guardar la presentación, por ejemplo Documentos.
 2. Escribe `/model` y elige **Opus 5.5**.
-3. Escribe el comando con el nombre de tu empresa:
+3. Escribe:
 
 ```
-/criterium:estrategia-ia Nombre de tu empresa
+/estrategia-ia
 ```
 
-   Escribe siempre el nombre de la empresa en el comando. Si quieres, agrega su página: `/criterium:estrategia-ia Nombre de tu empresa tuempresa.com`.
+4. El agente te pregunta el nombre de tu empresa y a qué industria se dedica. A partir de ahí hace todo: investiga, te hace sus preguntas (puedes escribir libremente o elegir entre las opciones) y arma la presentación.
 
-4. Contesta las preguntas. Puedes escribir libremente o elegir entre las opciones.
-
-Durante el análisis, Claude Code puede pedirte permiso para buscar en internet o para armar la presentación. Elige **Sí** (o **Sí, y no volver a preguntar**).
+Mientras prepara tu estrategia, el agente busca en internet y guarda sus archivos en la carpeta de la estrategia sin pedirte permiso en cada paso. No toca nada fuera de esa carpeta, y al entregarte la presentación deja de hacerlo. Si Claude Code te pide algún permiso, elige **Sí**.
 
 Al final encontrarás la carpeta `Estrategia IA - Nombre de tu empresa` con:
 - `Nombre de tu empresa - Estrategia de sistemas agénticos.pptx`: la presentación.
@@ -69,7 +67,9 @@ Al final encontrarás la carpeta `Estrategia IA - Nombre de tu empresa` con:
 
 **¿Cuánto tarda?** Entre 35 y 45 minutos en total; tu parte son unos 15.
 
-**¿Puedo dejarlo a la mitad?** Sí. Si vuelves a correr el comando en la misma carpeta, el agente te ofrece retomar donde se quedó.
+**¿Puedo dejarlo a la mitad?** Sí. Si vuelves a escribir `/estrategia-ia` en la misma carpeta, el agente te ofrece retomar donde se quedó.
+
+**El comando no aparece.** Escribe `/criterium:estrategia-ia`: es el mismo agente con su nombre completo (pasa si tienes otro comando que también se llama estrategia-ia).
 
 **¿Qué pasa con mis respuestas?** Se quedan en tu computadora, en la carpeta de la presentación. El agente solo hace búsquedas públicas en internet sobre tu empresa y tu industria.
 

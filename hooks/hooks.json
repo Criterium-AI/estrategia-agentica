@@ -1,0 +1,17 @@
+{
+  "description": "Mientras hay una estrategia en curso en la carpeta, aprueba solo las búsquedas web, los archivos de la carpeta de la estrategia y el motor del deck. Todo lo demás pide permiso como siempre.",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "WebSearch|WebFetch|Read|Write|Edit|Bash",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"${CLAUDE_PLUGIN_ROOT}/hooks/permisos.js\"",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
